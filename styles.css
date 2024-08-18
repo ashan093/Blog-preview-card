@@ -8,12 +8,6 @@
     font-weight: 500;
 }
 
-/* @font-face {
-    font-family: figtree extra bold;
-    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
-
-} */
-
 body{
     background-color: hsl(47, 88%, 63%);
     min-height: 100svh;
@@ -80,6 +74,12 @@ body{
     color:hsl(0, 0%, 7%);
 }
 
+.title:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+    transition: 0.3s;
+}
+
 section p{
     font-family: figtree medium;
     font-size: 16px;
@@ -88,8 +88,7 @@ section p{
 
 .author{
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .author img{
